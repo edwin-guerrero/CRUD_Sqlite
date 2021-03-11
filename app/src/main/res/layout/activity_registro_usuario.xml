@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registro_usuario">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp"
+        android:gravity="center|center_horizontal"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="259dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/registro_de_usuarios"
+            android:textSize="24sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/t_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/id"
+            android:inputType="text"
+            android:textSize="24sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/t_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nombre"
+            android:inputType="text"
+            android:textSize="24sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/t_telefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/telef_no"
+            android:inputType="text"
+            android:textSize="24sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/b_registrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/registrar_usuario" />
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

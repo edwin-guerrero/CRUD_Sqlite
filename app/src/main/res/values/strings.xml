@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CRUD Sqlite</string>
+    <string name="registro_de_usuarios">REGISTRO DE USUARIOS</string>
+    <string name="registrar_usuario">Registrar Usuario</string>
+    <string name="id">id</string>
+    <string name="nombre">Nombre</string>
+    <string name="telef_no">Telefóno</string>
+</resources>
