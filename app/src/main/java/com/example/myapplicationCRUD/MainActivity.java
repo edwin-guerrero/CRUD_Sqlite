@@ -22,6 +22,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.b_registrar:
                 miIntent=new Intent(MainActivity.this,registro_usuario.class);
                 break;
+            case R.id.btn_Consulta:
+                miIntent=new Intent(MainActivity.this,consultar_usuario.class);
+                break;
         }
         if (miIntent!=null){
             startActivity(miIntent);

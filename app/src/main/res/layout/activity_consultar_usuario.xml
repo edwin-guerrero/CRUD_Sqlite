@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".consultar_usuario">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/documentoId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.93"
+                android:hint="Documento"/>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnConsultar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Buscar"
+                android:onClick="onClick"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/campoNombreConsulta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/campoTelefonoConsulta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telefono"/>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnActualizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actualizar"
+            android:layout_weight="0.5"
+            android:onClick="onClick"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnEliminar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Eliminar"
+            android:onClick="onClick"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

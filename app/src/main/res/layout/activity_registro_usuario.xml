@@ -51,7 +51,8 @@
             android:id="@+id/b_registrar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/registrar_usuario" />
+            android:text="@string/registrar_usuario"
+            android:onClick="onClick"/>
 
     </LinearLayout>
 
